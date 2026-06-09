@@ -6,7 +6,7 @@
   "homepage": "http://Ahmed-Wael-01.github.io/markdown_previewer",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
